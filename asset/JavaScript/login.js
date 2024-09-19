@@ -3,7 +3,7 @@ document.getElementById("login-btn").addEventListener("click", function (e) {
   const phoneNumber = document.getElementById("phone-number").value;
   const pinNumber = document.getElementById("pin-number").value;
   if (phoneNumber === "01781131905" && pinNumber === "811319") {
-    window.location.href = "/home.html";
+    window.location.href = "./home.js";
   } else {
     alert("Wrong! Phone Number or Pin");
   }
